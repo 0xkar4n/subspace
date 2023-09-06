@@ -77,21 +77,21 @@ function CountdownTimer() {
   }, []);
 
   return (
-    <div className="m-8 bg-gradient-to-r  from-gray-700 via-slate-600 to-gray-900 text-white p-8 border border-white rounded-lg shadow-lg">
+    <div className="m-12 p-12  backdrop-blur-md bg-gray-100/10 text-white border border-white rounded-lg shadow-lg">
       
-      <h1 className="text-2xl flex justify-center mb-4">Countdown Timer</h1>
-      <div className="grid grid-cols-6 gap-2">
-        <div className="col-span-2 text-center">
+      <h1 className="text-3xl m-8 pb-4 flex justify-center ">Subspace Incentives Testnet 3F Countdown</h1>
+      <div className="flex gap-32 m-4 justify-center">
+        <div className="col-span-2 flex items-center gap-2 text-center">
           <div className="text-5xl font-bold">{countdown.hours}</div>
-          <div className="text-sm">Hours</div>
+          <div className="text-lg">Hours</div>
         </div>
-        <div className="col-span-2 text-center">
+        <div className="col-span-2 flex gap-2 items-center text-center">
           <div className="text-5xl font-bold">{countdown.minutes}</div>
-          <div className="text-sm">Minutes</div>
+          <div className="text-lg">Minutes</div>
         </div>
-        <div className="col-span-2 text-center">
+        <div className="col-span-2 flex  gap-2 items-center text-center">
           <div className="text-5xl font-bold">{countdown.seconds}</div>
-          <div className="text-sm">Seconds</div>
+          <div className="text-lg">Seconds</div>
         </div>
       </div>
     </div>
