@@ -77,7 +77,7 @@ function CountdownTimer() {
   }, []);
 
   return (
-    <div className="m-4 bg-gradient-to-r from-gray-700 via-slate-600 to-gray-900 text-white p-8 border border-white rounded-lg shadow-lg">
+    <div className="m-8 bg-gradient-to-r  from-gray-700 via-slate-600 to-gray-900 text-white p-8 border border-white rounded-lg shadow-lg">
       
       <h1 className="text-2xl flex justify-center mb-4">Countdown Timer</h1>
       <div className="grid grid-cols-6 gap-2">
